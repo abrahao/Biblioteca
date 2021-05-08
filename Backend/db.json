@@ -1,0 +1,22 @@
+{
+    "livros":[
+        {
+            "id": 1,
+            "autor": "David Flanagan",
+            "titulo": "JavaScript - O Guia Definitivo",
+            "editora": "O'Relly"
+        },
+        {
+            "id": 2,
+            "autor": "Yakov Fain",
+            "titulo": "Angular 2 - Development with Typescript",
+            "editora": "Manning"
+        },
+        {
+            "id": 3,
+            "autor": "Chris Guillebeau",
+            "titulo": "A Arte da Não Conformidade",
+            "editora": "Editora Saraiva"
+        }
+    ]
+}
