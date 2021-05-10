@@ -8,15 +8,15 @@
                 </i>
                 Início
             </a>
-            <a mat-list-item  routerLink="/products">
+            <a mat-list-item  routerLink="livros">
                 <i class="material-icons">
                     storefront
                 </i>
-                Produtos
+                Livros
             </a>
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content class="content">
-       <app-home></app-home>
+       <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>

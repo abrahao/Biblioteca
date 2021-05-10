@@ -12,8 +12,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
-import { MatCommonModule } from '@angular/material/core';
-
+import { BibliotecaCrudComponent } from './views/biblioteca-crud/biblioteca-crud.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,8 @@ import { MatCommonModule } from '@angular/material/core';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    BibliotecaCrudComponent,
   ],
   imports: [
     BrowserModule,
